@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #353535;
+  --text-color: #000000;
+
+  --button-color: #FAA500;
+
+  --selector-color-tan: #DEAC71;
+  --selector-color-coral: #D37164;
+  --selector-color-cornflower-blue: #6497D3;
+  --selector-color-midnight-blue: #3C3B79;
+  --selector-color-crimson: #D84E4B;
+  --selector-color-linen: #CFC9B0;
+  --selector-color-off-white: #EAE9E5;
+
+  --main-font-family: 'Titillium Web';
+}
+
+body {
+  font-family: var(--main-font-family);
+  margin: 0;
+}
+
+.maeztra-btn {
+  cursor: pointer;
+  border: none;
+  background-color: var(--button-color);
+  border-radius: 8px;
+  color: var(--primary-color);
+}
+
+p {
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 12px;
+}
