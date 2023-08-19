@@ -1,0 +1,22 @@
+.maeztra-tipbar {
+  text-align: center;
+
+  > h3 {
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+
+  > .maeztra-tipbar-items {
+    display: flex;
+    justify-content: center;
+
+    > .maeztra-tipbar-card {
+      background-color: #EFEFEF;
+      border-radius: 6px;
+      margin: 0 10px;
+    }
+  }
+}

@@ -21,6 +21,21 @@
 body {
   font-family: var(--main-font-family);
   margin: 0;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(248, 249, 250, 1);
+    border-radius: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+  }
 }
 
 .maeztra-btn {

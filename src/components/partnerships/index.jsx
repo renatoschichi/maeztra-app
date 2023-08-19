@@ -2,7 +2,9 @@ import './style.scss'
 
 function Partnerships() {
   return (
-    <div></div>
+    <div className="maeztra-partnerships">
+      <h2>Marcas Parceiras</h2>
+    </div>
   )
 }
 
