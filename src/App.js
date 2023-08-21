@@ -2,6 +2,10 @@ import Header from './components/header'
 import Carousel from './components/carousel/index.jsx'
 import Tipbar from './components/tipbar'
 import Partnerships from './components/partnerships'
+import MostRequested from './components/most-requested/index';
+import GenericBanner from './components/generic-banner/index';
+import Newsletter from './components/newsletter'
+import Footer from './components/footer'
 
 import carouselData from './data/carouselData.json'
 
@@ -14,6 +18,10 @@ function App() {
       <Carousel data={carouselData.slides} />
       <Tipbar />
       <Partnerships />
+      <MostRequested />
+      <GenericBanner />
+      <Newsletter />
+      <Footer />
     </div>
   )
 }

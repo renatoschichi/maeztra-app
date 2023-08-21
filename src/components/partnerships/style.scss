@@ -1,3 +1,34 @@
 .maeztra-partnerships {
-  text-align: center;
+  margin: 0 30px 50px;
+  overflow-x: auto;
+
+  * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  *::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  > h2 {
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--secondary-color);
+    margin: 20px;
+    text-align: center;
+  }
+
+  > .maeztra-partnerships-images {
+    display: flex;
+    overflow-x: auto;
+
+    img {
+      width: 308px;
+      height: 64px;
+      border-radius: 4px;
+    }
+  }
 }

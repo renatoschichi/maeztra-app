@@ -1,5 +1,3 @@
-import React, { useState } from "react"
-
 import EarthIcon from '../../assets/icons/Tipbar05.svg'
 import StockIcon from '../../assets/icons/Tipbar04.svg'
 import ChangeIcon from '../../assets/icons/Tipbar03.svg'
@@ -8,49 +6,51 @@ import DeliveryIcon from '../../assets/icons/Tipbar01.svg'
 
 import './style.scss'
 
-const tipbar = [
-  {
-    image: EarthIcon,
-    span: 'Produtos importados',
-    p: 'Produtos de Alta Qualidade'
-  },
-  {
-    image: StockIcon,
-    span: 'Estoque no Brazil',
-    p: 'Produtos mais perto de você!'
-  },
-  {
-    image: ChangeIcon,
-    span: 'Trocas Garantidas',
-    p: 'Trocas em até 48 horas, vejas as regras'
-  },
-  {
-    image: PromotionIcon,
-    span: 'Ganhe 5% off',
-    p: 'Pagando à vista no Cartão'
-  },
-  {
-    image: DeliveryIcon,
-    span: 'Frete Grátis',
-    p: 'Em compras acima de R$ 499,00'
-  }
-]
-
 function Tipbar() {
-  const [products, setProducts] = useState(tipbar)
-
   return (
     <div className="maeztra-tipbar">
       <h2>Por que comprar na Maeztra?</h2>
       <div className="maeztra-tipbar-items">
 
-        {products.map((product) => (
-          <div className="maeztra-tipbar-card">
-            <img src={product.image} alt="Maeztra Tipbar Icon" />
-            <span>{product.span}</span>
-            <p>{product.p}</p>
+        <div className="maeztra-tipbar-card">
+          <img src={EarthIcon} alt="Maeztra Tipbar Icon" />
+          <div className="maeztra-tipbar-card-text">
+            <span>Produtos importados</span>
+            <p>Produtos de Alta Qualidade</p>
           </div>
-        ))}
+        </div>
+
+        <div className="maeztra-tipbar-card">
+          <img src={StockIcon} alt="Maeztra Tipbar Icon" />
+          <div className="maeztra-tipbar-card-text">
+            <span>Estoque no Brazil</span>
+            <p>Produtos mais perto de você!</p>
+          </div>
+        </div>
+
+        <div className="maeztra-tipbar-card">
+          <img src={ChangeIcon} alt="Maeztra Tipbar Icon" />
+          <div className="maeztra-tipbar-card-text">
+            <span>Trocas Garantidas</span>
+            <p>Trocas em até 48 horas, vejas as regras</p>
+          </div>
+        </div>
+
+        <div className="maeztra-tipbar-card">
+          <img src={PromotionIcon} alt="Maeztra Tipbar Icon" />
+          <div className="maeztra-tipbar-card-text">
+            <span>Ganhe 5% off</span>
+            <p>Pagando à vista no Cartão</p>
+          </div>
+        </div>
+
+        <div className="maeztra-tipbar-card">
+          <img src={DeliveryIcon} alt="Maeztra Tipbar Icon" />
+          <div className="maeztra-tipbar-card-text">
+            <span>Frete Grátis</span>
+            <p>Em compras acima de R$ 499,00</p>
+          </div>
+        </div>
 
       </div>
     </div>
