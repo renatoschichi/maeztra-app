@@ -19,6 +19,7 @@
     > p {
       text-align: left;
       width: 420px;
+      font-size: 14px;
       line-height: 21.29px;
     }
   }
@@ -33,11 +34,17 @@
 
 @media (max-width: 768px) {
   .maeztra-generic-banner {
-    display: block;
-    margin: 0 50px 30px 50px;
+    display: grid;
+    margin: 10px 30px;
+    justify-content: space-around;
 
     > .maeztra-generic-banner-content {
       margin: 0;
+
+      > h2 {
+        width: 298px;
+        font-size: 24px;
+      }
     }
 
     .maeztra-generic-banner-image {

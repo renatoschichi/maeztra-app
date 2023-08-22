@@ -2,11 +2,16 @@
   padding-top: 20px;
 }
 
-.maeztra-footer-columns {
+.maeztra-footer-columns-desktop {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
   margin-bottom: 120px;
   min-height: 120px;
+}
+
+.maeztra-footer-columns-mobile {
+  display: none;
 }
 
 .maeztra-footer-left,
@@ -66,10 +71,22 @@
 @media (max-width: 768px) {
   .maeztra-footer {
 
-    > .maeztra-footer-columns {
+    > .maeztra-footer-columns-desktop {
+      display: none;
+    }
+
+    > .maeztra-footer-columns-mobile {
       display: grid;
-      justify-content: start;
-      margin-left: 50px;
+      padding: 30px;
+
+      > div {
+        margin-bottom: 20px;
+
+        > .maeztra-footer-show-column {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
     }
 
     > .maeztra-footer-bottom {

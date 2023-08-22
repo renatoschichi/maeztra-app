@@ -1,3 +1,5 @@
+import React, { useState } from 'react'
+
 import FacebookIcon from '../../assets/icons/facebook.svg'
 import LinkedinIcon from '../../assets/icons/Vector(4).svg'
 import InstagramIcon from '../../assets/icons/Vector(3).svg'
@@ -13,9 +15,14 @@ import MaeztraImageLight from '../../assets/images/maeztra-logo-light.png'
 import './style.scss'
 
 function Footer() {
+  const [columnInfo, setColumnInfo] = useState(false)
+  const [columnAccount, setColumnAccount] = useState(false)
+  const [columnFindUs, setColumnFindUs] = useState(false)
+
   return (
     <div className="maeztra-footer">
-      <div className="maeztra-footer-columns">
+
+      <div className="maeztra-footer-columns-desktop">
         <div className="maeztra-footer-left">
           <span className="bold">Informações</span>
           <span>Quem Somos</span>
@@ -33,6 +40,54 @@ function Footer() {
           <span className="bold">Onde nos encontrar</span>
           <span>Lojas</span>
           <span>Endereço</span>
+        </div>
+      </div>
+
+      <div className="maeztra-footer-columns-mobile">
+        <div className="maeztra-footer-left">
+          <div className="maeztra-footer-show-column">
+            <span className="bold">Informações</span>
+            <span className="bold maeztra-footer-toogle-btn" onClick={() => setColumnInfo(!columnInfo)}>
+              {columnInfo ? "-" : "+"}
+            </span>
+          </div>
+          {columnInfo && (
+            <>
+              <span>Quem Somos</span>
+              <span>Prazo de Envio</span>
+              <span>Trocas e Devoluções</span>
+              <span>Promoções e Cupons</span>
+            </>
+          )}
+        </div>
+        <div className="maeztra-footer-middle">
+          <div className="maeztra-footer-show-column">
+            <span className="bold">Minha Conta</span>
+            <span className="bold maeztra-footer-toogle-btn" onClick={() => setColumnAccount(!columnAccount)}>
+              {columnAccount ? "-" : "+"}
+            </span>
+          </div>
+          {columnAccount && (
+            <>
+              <span>Minha Conta</span>
+              <span>Meus Pedidos</span>
+              <span>Cadastre-se</span>
+            </>
+          )}
+        </div>
+        <div className="maeztra-footer-right">
+        <div className="maeztra-footer-show-column">
+          <span className="bold">Onde nos encontrar</span>
+          <span className="bold maeztra-footer-toogle-btn" onClick={() => setColumnFindUs(!columnFindUs)}>
+            {columnFindUs ? "-" : "+"}
+          </span>
+        </div>
+          {columnFindUs && (
+            <>
+              <span>Lojas</span>
+              <span>Endereço</span>
+            </>
+          )}
         </div>
       </div>
       <div className="maeztra-footer-bottom">
