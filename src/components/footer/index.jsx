@@ -7,6 +7,8 @@ import MastercardIcon from '../../assets/icons/Vector (1).svg'
 
 import VTEXImage from '../../assets/images/logo footer.png'
 import MaeztraImage from '../../assets/images/[2019-05]-Maeztra---Logo----cor.png'
+import VTEXImageLight from '../../assets/images/logo footer-light.png'
+import MaeztraImageLight from '../../assets/images/maeztra-logo-light.png'
 
 import './style.scss'
 
@@ -50,11 +52,13 @@ function Footer() {
             <div>
               <div onClick={() => window.open('https://vtex.com/', '_blank')}>
                 <span>Powered by</span>
-                <img src={VTEXImage} alt="VTEX Logo" />
+                <img src={VTEXImage} alt="VTEX Logo" className="maeztra-footer-image-dark" />
+                <img src={VTEXImageLight} alt="VTEX Logo" className="maeztra-footer-image-light" />
               </div>
               <div onClick={() => window.open('https://maeztra.com/', '_blank')}>
                 <span>Developed by</span>
-                <img src={MaeztraImage} alt="Maeztra Logo" />
+                <img src={MaeztraImage} alt="Maeztra Logo" className="maeztra-footer-image-dark" />
+                <img src={MaeztraImageLight} alt="VTEX Logo" className="maeztra-footer-image-light" />
               </div>
             </div>
         </div>
