@@ -1,0 +1,65 @@
+.maeztra-newsletter {
+  height: 120px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #EFEFEF;
+  margin-bottom: 30px;
+  background-color: #FAFAFA;
+
+  > label {
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 30px;
+  }
+
+  > .maeztra-input {
+    display: flex;
+
+    > input {
+      background-color: var(--primary-color);
+      border: 1px solid var(--secondary-color);
+      border-radius: 4px;
+      padding-left: 20px;
+      width: 468px;
+      font-family: var(--main-font-family);
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    > .maeztra-btn-send {
+      width: 131px;
+      height: 40px;
+      border-radius: 4px;
+      margin-left: -2px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .maeztra-newsletter {
+    display: block;
+    text-align: center;
+
+    > .maeztra-input {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+
+      > input {
+        width: 204px;
+        height: 26px;
+      }
+
+      > .maeztra-btn-send {
+        width: 79px;
+        height: 26px;
+        margin-left: 10px;
+        margin-top: 1px;
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ h2 {
 .maeztra-cards-carousel {
   display: flex;
   margin-bottom: 50px;
+  overflow: hidden;
 
   > .cards-container {
     display: flex;

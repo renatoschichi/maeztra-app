@@ -1,0 +1,13 @@
+.maeztra-footer {
+  height: 376px;
+  display: flex;
+  justify-content: space-around;
+
+  > div {
+    display: grid;
+
+    > span {
+      margin: 0;
+    }
+  }
+}
