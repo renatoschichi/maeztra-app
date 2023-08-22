@@ -1,0 +1,109 @@
+.maeztra-modal-newsletter {
+  display: flex;
+  width: 851px;
+  height: 558.25px;
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+
+  > .maeztra-modal-newsletter-image {
+    width: 50%;
+  }
+
+  > .maeztra-modal-newsletter-content {
+    width: 50%;
+    height: 530.71px;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-top: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    > h4 {
+      font-family: Lato;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: var(--primary-color);
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 10px;
+      margin-top: -20px;
+      cursor: pointer;
+    }
+
+    > img {
+      width: 28px;
+      height: 29.66px;
+      margin: 0 auto;
+    }
+
+    > p {
+      color: #464B54;
+    }
+
+    > span {
+      font-family: Lato;
+      font-size: 20px;
+      color: #787D83;
+      line-height: 23px;
+    }
+
+    > input {
+      width: 322px;
+      height: 42.37px;
+      background-color: var(--primary-color);
+      border: 1px solid #C4C4C4;
+      margin: 20px auto;
+      padding-left: 10px;
+      border-radius: 10px;
+    }
+
+    > button {
+      width: 322px;
+      height: 40px;
+      margin: 0 auto  ;
+
+      > img {
+        vertical-align: middle;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .maeztra-modal-newsletter {
+    width: 298px;
+    height: 307px;
+
+    > .maeztra-modal-newsletter-image {
+      display: none;
+    }
+
+    > .maeztra-modal-newsletter-content {
+      width: 298px;
+      height: 307px;
+      padding-top: 40px;
+
+      > span {
+        font-size: 16px;
+      }
+
+      > input {
+        width: 258px;
+        height: 40px;
+      }
+
+      > button {
+        width: 258px;
+        height: 40px;
+      }
+    }
+  }
+}

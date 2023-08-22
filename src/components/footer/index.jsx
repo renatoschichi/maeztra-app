@@ -35,24 +35,24 @@ function Footer() {
       </div>
       <div className="maeztra-footer-bottom">
         <div className="maeztra-footer-bottom-images">
-            <img src={FacebookIcon} alt="Facebook Icon" />
-            <img src={LinkedinIcon} alt="Linkedin Icon" />
-            <img src={InstagramIcon} alt="Instagram Icon" />
-            <img src={YoutubeIcon} alt="Youtube Icon" />
+            <img src={FacebookIcon} alt="Facebook Icon" onClick={() => window.open('https://www.facebook.com/maeztraconsultoria/?locale=pt_BR', '_blank')} />
+            <img src={LinkedinIcon} alt="Linkedin Icon" onClick={() => window.open('https://www.linkedin.com/company/maeztra/', '_blank')} />
+            <img src={InstagramIcon} alt="Instagram Icon" onClick={() => window.open('https://www.instagram.com/maeztra_consultoria/?hl=pt-br', '_blank')} />
+            <img src={YoutubeIcon} alt="Youtube Icon" onClick={() => window.open('https://www.youtube.com/@maeztra', '_blank')} />
         </div>
         <div className="maeztra-footer-bottom-images">
-            <img src={VisaIcon} alt="Visa Icon" />
-            <img src={MastercardIcon} alt="Mastercard Icon" />
-            <img src={VisaIcon} alt="Visa Icon" />
-            <img src={MastercardIcon} alt="Mastercard Icon" />
+            <img src={VisaIcon} alt="Visa Icon" onClick={() => window.open('https://www.visa.com.br/', '_blank')} />
+            <img src={MastercardIcon} alt="Mastercard Icon" onClick={() => window.open('https://www.mastercard.com.br/', '_blank')} />
+            <img src={VisaIcon} alt="Visa Icon" onClick={() => window.open('https://www.visa.com.br/', '_blank')} />
+            <img src={MastercardIcon} alt="Mastercard Icon" onClick={() => window.open('https://www.mastercard.com.br/', '_blank')} />
         </div>
         <div className="maeztra-footer-bottom-images">
             <div>
-              <div>
+              <div onClick={() => window.open('https://vtex.com/', '_blank')}>
                 <span>Powered by</span>
                 <img src={VTEXImage} alt="VTEX Logo" />
               </div>
-              <div>
+              <div onClick={() => window.open('https://maeztra.com/', '_blank')}>
                 <span>Developed by</span>
                 <img src={MaeztraImage} alt="Maeztra Logo" />
               </div>

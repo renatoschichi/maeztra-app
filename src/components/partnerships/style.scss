@@ -32,3 +32,13 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .maeztra-partnerships {
+    margin: 0 10px;
+
+    > h2 {
+      font-size: 24px;
+    }
+  }
+}
