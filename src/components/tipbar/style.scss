@@ -1,5 +1,5 @@
 .maeztra-tipbar {
-  margin: 0 30px 50px;
+  margin: 0 120px 30px 120px;
   overflow-x: auto;
 
   scrollbar-width: none;
@@ -51,6 +51,16 @@
           margin: 0;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .maeztra-tipbar {
+    margin: 0;
+
+    > .maeztra-tipbar-items {
+      margin: 0 80px;
     }
   }
 }

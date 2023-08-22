@@ -35,6 +35,10 @@
       height: 40px;
       border-radius: 4px;
       margin-left: -2px;
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 }

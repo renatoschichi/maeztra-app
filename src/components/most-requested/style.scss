@@ -1,11 +1,13 @@
 h2 {
   text-align: center;
   font-size: 32px;
+  margin-top: 50px;
 }
 
 .maeztra-cards-carousel {
   display: flex;
   overflow: hidden;
+  margin: 0 120px 30px 120px;
 
   > .cards-container {
     display: flex;
