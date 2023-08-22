@@ -1,21 +1,51 @@
 .maeztra-generic-banner {
-  margin: 50px 0;
+  margin: 60px 120px;
   display: flex;
-  height: 480px;
   overflow: hidden;
 
   > .maeztra-generic-banner-content {
+    margin-top: 30px;
+    margin-right: 50px;
 
     > h2 {
       font-family: var(--main-font-family);
       font-weight: 700;
       font-size: 32px;
       color: var(--secondary-color);
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    > p {
+      text-align: left;
+      width: 420px;
+      line-height: 21.29px;
     }
   }
 
   > .maeztra-generic-banner-image {
-    width: 1114px;
-    height: 684px;
+    
+    > img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .maeztra-generic-banner {
+    display: block;
+    margin: 0 50px 30px 50px;
+
+    > .maeztra-generic-banner-content {
+      margin: 0;
+    }
+
+    .maeztra-generic-banner-image {
+    
+      > img {
+        width: 300px;
+        height: 185px;
+      }
+    }
   }
 }
