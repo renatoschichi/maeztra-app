@@ -1,0 +1,61 @@
+h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.maeztra-cards-carousel {
+  display: flex;
+  margin-bottom: 50px;
+
+  > .cards-container {
+    display: flex;
+
+    > .card {
+      width: 308px;
+      padding: 10px;
+
+      > img {
+        width: 308px;
+        height: 381px;
+      }
+
+      > .colors {
+        display: flex;
+
+        > .color {
+          width: 27px;
+          height: 27px;
+          margin-right: 10px;
+        }
+      }
+
+      > h3 {
+        font-family: var(--main-font-family);
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--secondary-color);
+        margin: 10px 0 0 0;
+      }
+
+      > h4 {
+        font-family: var(--main-font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--text-color);
+        margin: 0;
+      }
+
+      > p {
+        opacity: 50%;
+        width: 254px;
+        height: 54px;
+      }
+
+      > button {
+        width: 254px;
+        height: 35px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

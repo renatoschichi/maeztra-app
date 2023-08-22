@@ -20,5 +20,63 @@
       "src": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       "alt": "Image 3 for carousel"
     }
+  ],
+  "mostRequestedCards": [
+    {
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=483&q=80",
+      "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+      "title": "R$ 500,00",
+      "subtitle": "Faux Suede Mini Skirt",
+      "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1542295669297-4d352b042bca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "colors": ["#353535", "#D84E4B", "#CFC9B0", "#EAE9E5"],
+      "title": "R$ 500,00",
+      "subtitle": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1562137369-1a1a0bc66744?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+      "title": "R$ 320,00",
+      "subtitle": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1568252542512-9fe8fe9c87bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=419&q=80",
+      "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+      "title": "R$ 320,00",
+      "subtitle": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=327&q=80",
+      "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+      "title": "R$ 320,00",
+      "subtitle": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1495385794356-15371f348c31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=370&q=80",
+      "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+      "title": "R$ 320,00",
+      "subtitle": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+      "title": "R$ 320,00",
+      "subtitle": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1582533561751-ef6f6ab93a2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=355&q=80",
+      "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+      "title": "R$ 320,00",
+      "subtitle": "Ruched Rose Print Mini Skirt",
+      "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem."
+    }
   ]
 }

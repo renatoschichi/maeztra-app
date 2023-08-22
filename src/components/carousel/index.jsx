@@ -15,7 +15,7 @@ const Carousel = ({ data }) => {
   }
 
   return (
-    <div className="carousel">
+    <div className="maeztra-carousel">
       <FaAngleLeft onClick={prevSlide} className="arrow arrow-left" />
       {data.map((item, idx) => {
         return (

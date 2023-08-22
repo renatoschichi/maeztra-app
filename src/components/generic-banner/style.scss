@@ -1,0 +1,21 @@
+.maeztra-generic-banner {
+  margin: 50px 0;
+  display: flex;
+  width: 1598px;
+  height: 480px;
+
+  > .maeztra-generic-banner-content {
+
+    > h2 {
+      font-family: var(--main-font-family);
+      font-weight: 700;
+      font-size: 32px;
+      color: var(--secondary-color);
+    }
+  }
+
+  > .maeztra-generic-banner-image {
+    width: 1114px;
+    height: 684px;
+  }
+}

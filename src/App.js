@@ -18,7 +18,7 @@ function App() {
       <Carousel data={carouselData.slides} />
       <Tipbar />
       <Partnerships />
-      <MostRequested />
+      <MostRequested data={carouselData.mostRequestedCards} />
       <GenericBanner />
       <Newsletter />
       <Footer />
